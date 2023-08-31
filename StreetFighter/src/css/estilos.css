@@ -6,12 +6,10 @@ body {
 
 .cabecalho {
   display: flex;
-  background-color: aqua;
   justify-content: center;
 }
 
 .selecao-de-personagens {
-  background-color: violet;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -21,9 +19,8 @@ body {
 
 .selecao-de-personagens .lista-de-personagens {
   display: flex;
-  background-color: brown;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -31,8 +28,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 585px;
-  gap: 25px;
+  max-width: 840px;
+  gap: 20px;
 }
 
 .selecao-de-personagens .personagens .titulo {
@@ -52,10 +49,10 @@ body {
 .lista-de-personagens .personagem.selecionado {
   box-shadow: 0px 0px 24px 5px #0271f7;
   border-bottom: 2px solid #47f4ff;
-  letter-spacing: 4px;
+  
 }
 
-.personagem.selecionado {
+.personagem-selecionado {
   text-align: center;
   max-height: 550px;
 }

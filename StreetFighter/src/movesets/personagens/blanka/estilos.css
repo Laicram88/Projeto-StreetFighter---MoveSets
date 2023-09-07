@@ -1,0 +1,34 @@
+body {
+  font-family: "Oxanium", cursive;
+  background: #ffffff;
+  color: #000000;
+  background-image: url(/StreetFighter/src/movesets/fundos/blankaFundo2.jpg);
+  background-repeat: no-repeat;
+}
+
+.cabecario {
+  background: #338d4e;
+  font-weight: 900;
+  text-align: center;
+}
+
+.topico {
+  font-weight: 900;
+  text-align: center;
+}
+
+td {
+  width: 900px;
+  text-align: left;
+  border: 1px solid #c7580e;
+}
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+table,
+td {
+  margin: 5px;
+  min-height: calc(100vh - 188px);
+}

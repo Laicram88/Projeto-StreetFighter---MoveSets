@@ -57,7 +57,7 @@ function alterarImagemPersonagemSelecionado(personagem) {
 
   // passo 2 - alterar a imagem do personagem grande
   const idPersonagem = personagem.attributes.id.value;
-  imagemPersonagemGrande.src = `/StreetFighter/src/imagens/card-${idPersonagem}.png`;
+  imagemPersonagemGrande.src = `./StreetFighter/src/imagens/card-${idPersonagem}.png`;
 }
 
 function removerSelecaoDoPersonagem() {

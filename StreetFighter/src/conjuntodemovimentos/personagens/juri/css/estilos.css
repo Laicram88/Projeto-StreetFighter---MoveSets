@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background: #fffcfc;
+  color: #000000;
+  background-image: url(../fundo/Juri.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.cabecario {
+  background: #622a97;
+  font-weight: 900;
+  text-align: center;
+}
+
+.topico {
+  font-weight: 900;
+  text-align: center;
+}
+
+td {
+  width: 900px;
+  text-align: left;
+  border: 1px solid #f160b5;
+}
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+table,
+td {
+  margin: 5px;
+  min-height: calc(100vh - 188px);
+}
